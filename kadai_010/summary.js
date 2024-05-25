@@ -3,7 +3,7 @@ $(function () {
     $('#change-color').on('click', function() {
       $('#target').css('color','red');
     });
-
+    // ボタンを押すと、文字内容が変わる
      $('#change-text').on('click', function() {
         $('#target').text('Hello!');
       });
